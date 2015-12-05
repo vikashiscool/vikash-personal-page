@@ -1,10 +1,23 @@
 
-.heading-social{
-  text-align: center;
-  font-size: 32px;
+p{
+  text-align: justify;
 }
 
-.title{
+.custom-nav{
+  /*background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=100);*/
+  background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xpa1/v/t1.0-9/10314537_10153169583789452_7237529191176920181_n.jpg?oh=617d7ef329874fa07c63300f02af9ab3&oe=56488530");
+  background-position: absolute;
+  height: 350px;
+}
+#myname{
+  font-size: 28px;
+  color:white;
+}
+
+.headlink{
+  color:white;
+}
+.heading{
   text-align: center;
   font-size: 36px;
   padding-bottom: 9px;
@@ -15,6 +28,61 @@
   padding: 5px;
 }
 
+a{
+  color:black;
+}
+
 a:hover{
   text-decoration: none;
+  color:#297A2D;
 }
+
+
+#social-section{
+  text-align: center;
+}
+
+.experience-item{
+  margin-bottom: 30px;
+}
+
+.experience-title{
+  margin-bottom: -15px;
+}
+
+.experience-employer{
+  margin-bottom: -15px;
+}
+
+.experience-years{
+  margin-bottom: -15px;
+}
+
+
+
+/*Blinking cursor*/
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
