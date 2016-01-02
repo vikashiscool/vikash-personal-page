@@ -4,48 +4,77 @@
   <meta charset="UTF-8">
   <title>Vikash Parekh</title>
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- Optional Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-  <!-- Fonts -->
+  <!-- Font-awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <!-- Local stylesheet-->
+  <!-- Local stylesheets-->
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="navbar.css">
 
+  <!-- Local JS  -->
   <script type="text/javascript" src="app.js"></script>
-  
-  <!-- Bootstrap JS -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="navbar.js"></script>
+
   <!-- jQuery JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
 </head>
 
 <body>
   <!-- navbar -->
 
-<div class = "jumbotron">
-  <div class = "navbar nav custom-nav">
-    <div id = "myname">
-      <a href="index.html">
-        Vikash Parekh
-      </a>
-    </div>
+<!-- Fixed navbar -->
+    <nav id="header" class="navbar navbar-fixed-top">
+        <div id="header-container" class="container navbar-container">
+            <div class="navbar-header">
+                <a id="brand" class="navbar-brand" href="#top">Vikash Parekh</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#about-section">About</a></li>
+                    <li><a href="#portfolio-section">Portfolio</a></li>
+                    <li><a href="#skills-section">Skills</a></li>
+                    <li><a href="#experience-section">Experience</a></li>
+                    <li><a href="#social-section">Social media</a></li>
+                    
+                </ul>
+            </div><!-- /.nav-collapse -->
+        </div><!-- /.container -->
+    </nav><!-- /.navbar -->
 
-    <ul>
-      <a href="#about-section"><li>About</li></a>
-      <a href="#portfolio-section"><li>Portfolio</li></a>
-      <a href="#skills-section"><li>Skills</li></a>
-      <a href="#experience-section"><li>Experience</li></a>
-      <a href="#social-section"><li>Social media</li></a>
-    </ul>
-  </div>
-  <p class="typewriter">
-    typerwriter stuff here
-  </p>
-</div>
+
+ <!--  <div class= "navbar nav custom-nav">
+    <div class= "container">
+      <div id = "myname">
+        <a href="index.html">
+          Vikash Parekh
+        </a>
+      <ul>
+        <li><a href="#about-section">About</li></a>
+        <li><a href="#portfolio-section">Portfolio</li></a>
+        <li><a href="#skills-section">Skills</li></a>
+        <li><a href="#experience-section">Experience</li></a>
+        <li><a href="#social-section">Social media</li></a>
+      </ul>
+      </div>
+    </div>
+  </div> -->
+
+    <div class="jumbotron">
+      <div class="container">
+        <p class="typewriter">
+          typerwriter stuff here
+        </p>
+      </div>
+    </div>
 
 <!-- about me section -->
 <section id="about-section" class="col-xs-offset-3 col-xs-6">
-  <div class = "heading">
+  <div class="heading">
       a little about me
   </div>
 
@@ -58,7 +87,7 @@
   
 After spending ten years working intensively in healthcare research and program management, I decided to dive headfirst into the world of web development and design because I am excited by the idea of building new technologies that solve otherwise complex problems.
 
-As a graduate of the Web Development Immersive program and Developer-in-Residence at General Assembly (generalassemb.ly/education/web-development-immersive), I have received the type of unparalleled coding instruction and mentorship that often differentiates mediocre web developers from great ones. I have worked on individual and group projects that have enabled me to apply and further develop my planning, wireframing, database development, and coding skills.
+As a graduate of the Web Development Immersive program and Developer-in-Residence at <a href="generalassemb.ly/education/web-development-immersive">General Assembly</a>, I have received the type of unparalleled coding instruction and mentorship that often differentiates mediocre web developers from great ones. I have worked on individual and group projects that have enabled me to apply and further develop my planning, wireframing, database development, and coding skills.
 
 Through these experiences, I have gained a strong understanding of the HTML/CSS, JavaScript, and Ruby programming languages; the Express, Rails, and AngularJS frameworks; PostgreSQL and MongoDB ORMs; and a wide range of web development technologies and methodologies that I am now excited to apply as a back-end or full-stack developer. I am also continuously teaching myself new web development frameworks, libraries, and tools that will allow me to create more engaging and interactive applications— a process that I plan to continue throughout my career.
   </p>
@@ -66,14 +95,14 @@ Through these experiences, I have gained a strong understanding of the HTML/CSS,
 
 <!-- Portfolio section -->
 <section id="portfolio-section" class="col-xs-offset-3 col-xs-6">  
-  <div class = "heading">
+  <div class="heading">
       portfolio
   </div>
 </section>
 
 <!-- Skills section -->
 <section id="skills-section" class="col-xs-offset-3 col-xs-6">  
-  <div class = "heading">
+  <div class= "heading">
       skills
   </div>
 </section>
@@ -85,47 +114,47 @@ Through these experiences, I have gained a strong understanding of the HTML/CSS,
   </div>
 
 <div class="experience-item">
-  <div class="">Developer in Residence</div>
-  <div class="">General Assembly, San Francisco, CA</div>
-  <div class="">February 2015 – November 2015</div>
-  <b>Skills developed:<b>
+  <div class="experience-title">Developer in Residence</div>
+  <div class="experience-employer">General Assembly, San Francisco, CA</div>
+  <div class="experience-years">February 2015 – November 2015</div>
+  <b>Skills developed:</b>
   <br>
   <b>Accomplishments:</b>
 
 </div>
 
 <div class="experience-item">
-  <div class="">Web Development Immersive (WDI) Student</div>
-  <div class="">General Assembly, San Francisco, CA</div>
-  <div class="">November 2014 – February 2015</div>
-  <b>Skills developed:<b>
+  <div class="experience-title">Web Development Immersive (WDI) Student</div>
+  <div class="experience-employer">General Assembly, San Francisco, CA</div>
+  <div class="experience-years">November 2014 – February 2015</div>
+  <b>Skills developed:</b>
   <br>
   <b>Accomplishments:</b> 
 </div>
 
 <div class="experience-item">
-  <div class="">Quantitative Analyst</div>
-  <div class="">Kearny Venture Partners, San Francisco, CA</div>
-  <div class="">February 2014 – November 2014</div>
-  <b>Skills developed:<b>
-  <br>
-  <b>Accomplishments:</b>
-</div>
-
-<div class="experience-item">
-  <div class="">Web Development Immersive (WDI) Student</div>
-  <div class="">General Assembly, San Francisco, CA</div>
-  <div class="">November 2014 – February 2015</div>
+  <div class="experience-title">Quantitative Analyst</div>
+  <div class="experience-employer">Kearny Venture Partners, San Francisco, CA</div>
+  <div class="experience-years">February 2014 – November 2014</div>
   <b>Skills developed:</b>
   <br>
   <b>Accomplishments:</b>
 </div>
 
 <div class="experience-item">
-  <div class="">Program Manager</div>
-  <div class="">National Institutes of Health</div>
-  <div class="">September 2009 – July 2012</div>
-  <b>Skills developed:<b>
+  <div class="experience-title">Web Development Immersive (WDI) Student</div>
+  <div class="experience-employer">General Assembly, San Francisco, CA</div>
+  <div class="experience-years">November 2014 – February 2015</div>
+  <b>Skills developed:</b>
+  <br>
+  <b>Accomplishments:</b>
+</div>
+
+<div class="experience-item">
+  <div class="experience-title">Program Manager</div>
+  <div class="experience-employer">National Institutes of Health</div>
+  <div class="experience-years">September 2009 – July 2012</div>
+  <b>Skills developed:</b>
   <br>
   <b>Accomplishments:</b>
 </div>
@@ -136,7 +165,7 @@ Through these experiences, I have gained a strong understanding of the HTML/CSS,
 
 <!-- Social section -->
 <section id="social-section" class="col-xs-offset-3 col-xs-6">
-    <div class = "heading">
+    <div class= "heading">
       social
   </div>
 

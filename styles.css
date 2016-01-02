@@ -3,15 +3,18 @@ p{
   text-align: justify;
 }
 
+
 .custom-nav{
-  /*background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=100);*/
-  background-image: url("https://scontent.fsnc1-1.fna.fbcdn.net/hphotos-xpa1/v/t1.0-9/10314537_10153169583789452_7237529191176920181_n.jpg?oh=617d7ef329874fa07c63300f02af9ab3&oe=56488530");
+  background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=100);
   background-position: absolute;
   height: 350px;
 }
 #myname{
   font-size: 28px;
   color:white;
+}
+
+.jumbotron {
 }
 
 .headlink{
@@ -47,15 +50,18 @@ a:hover{
 }
 
 .experience-title{
-  margin-bottom: -15px;
-}
+  font-size: 30px;
+/*  margin-bottom: -15px;
+*/}
 
 .experience-employer{
-  margin-bottom: -15px;
+  font-size: 24px;
+  /*margin-bottom: -15px;*/
 }
 
 .experience-years{
-  margin-bottom: -15px;
+  font-size: 18px;
+  /*margin-bottom: -15px;*/
 }
 
 
