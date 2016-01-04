@@ -18,6 +18,7 @@ footer {
  */
 .navbar-brand {
     font-size: 24px;
+    color: #008300;
 }
 
 .navbar-container {
@@ -25,6 +26,7 @@ footer {
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
+    color:#c6c6c6;
     background-color: #222;
     border-color: #080808;
     box-shadow: 0 0 5px rgba(0,0,0,.8);

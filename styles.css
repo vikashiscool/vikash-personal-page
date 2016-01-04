@@ -3,18 +3,39 @@ p{
   text-align: justify;
 }
 
+.jumbotron{
+  font-family: "Courier New", Courier, monospace;
+  color: lime;
+  background-color: black;
+}
 
 .custom-nav{
-  background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=100);
+  background-color: #FFFFFF; filter: alpha(opacity=100);
   background-position: absolute;
-  height: 350px;
+  height: 50px;
 }
+
+.navbar-brand, .navbar-nav>li>a{
+  color: #297A2D;
+}
+
+#header-container{
+  background-color: white;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+  background-color: white;
+}
+
 #myname{
   font-size: 28px;
   color:white;
 }
 
-.jumbotron {
+.i-am{
+  font-size:21px;
+  font-weight: 200;
+  text-align: justify;
 }
 
 .headlink{
@@ -22,6 +43,7 @@ p{
 }
 .heading{
   text-align: center;
+  color: #297A2D;
   font-size: 36px;
   padding-bottom: 9px;
 }
@@ -32,7 +54,7 @@ p{
 }
 
 a{
-  color:black;
+  color:#CCC;
 }
 
 a:hover{
@@ -40,6 +62,11 @@ a:hover{
   color:#297A2D;
 }
 
+#about-section{
+  text-align: center;
+  color: white;
+  background-image: url(images/insta1.jpg);
+}
 
 #social-section{
   text-align: center;
