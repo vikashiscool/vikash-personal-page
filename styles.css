@@ -1,12 +1,24 @@
 
+body{
+  font-family: "Courier New", Courier, monospace;
+}
 p{
-  text-align: justify;
+  /*text-align: justify;*/
+}
+
+.me {
+  height: 50%;
+  width: 50%;
+  margin: 5px 0px 5px 20px;
+  border: 1.5px solid;
+  float: right;
 }
 
 .jumbotron{
-  font-family: "Courier New", Courier, monospace;
   color: lime;
   background-color: black;
+  margin-top: -8px;
+  margin-bottom: -15px;
 }
 
 .custom-nav{
@@ -15,15 +27,14 @@ p{
   height: 50px;
 }
 
-.navbar-brand, .navbar-nav>li>a{
-  color: #297A2D;
+.navbar{
+  font-family: 'Cutive Mono', Courier, monospace;
+  font-weight: bold;
+  border-bottom: 0px solid black;
+  margin: 0 auto;
 }
 
 #header-container{
-  background-color: white;
-}
-
-.navbar.navbar-fixed-top.fixed-theme {
   background-color: white;
 }
 
@@ -41,12 +52,24 @@ p{
 .headlink{
   color:white;
 }
+
 .heading{
+  font-weight:600;
   text-align: center;
   color: #297A2D;
   font-size: 36px;
+  padding-top:20px;
   padding-bottom: 9px;
+  text-shadow: 0.5px 0.5px black;
 }
+
+.div-pic{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 100px;
+  width: 100%;
+}
+
 
 .fa{
   font-size: 40px;
@@ -54,45 +77,83 @@ p{
 }
 
 a{
-  color:#CCC;
+/*  color:black;
+*/  font-weight:bold;
 }
 
 a:hover{
   text-decoration: none;
-  color:#297A2D;
+  color: #297A2D;
 }
 
-#about-section{
-  text-align: center;
-  color: white;
-  background-image: url(images/insta1.jpg);
+
+
+#about-content{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  /*margin-bottom: -30px;*/
+  text-align: justify;
 }
 
-#social-section{
-  text-align: center;
+
+#about-content>p{
+  padding-bottom: 8px
 }
 
-.experience-item{
-  margin-bottom: 30px;
+
+#skills-content{
+  font-size: 16px; 
+  /*margin-bottom: -30px;*/
+}
+
+#portfolio-content{
+  /*margin-bottom: -30px;*/
+
+}
+
+
+/*Experience section*/
+#experience-content{
+  /*margin-bottom: -30px;*/
 }
 
 .experience-title{
-  font-size: 30px;
-/*  margin-bottom: -15px;
-*/}
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
 
 .experience-employer{
-  font-size: 24px;
+  font-size: 22px;
   /*margin-bottom: -15px;*/
 }
 
 .experience-years{
   font-size: 18px;
-  /*margin-bottom: -15px;*/
+  padding-bottom: 10px;
+}
+
+.experience-item{
+  margin-bottom: 20px;
 }
 
 
+/*Social section*/
+#social-section{
+  text-align: center;
+  /*margin-top: -40px;*/
+}
 
+#social-content{
+
+}
+
+
+#foot{
+  margin: 20px 0 20px 0;
+  font-size: 10px;
+  font-style: italic;
+}
 /*Blinking cursor*/
 
 .typed-cursor{
