@@ -19,6 +19,7 @@ p{
   background-color: black;
   margin-top: -8px;
   margin-bottom: -15px;
+  height: 100px;
 }
 
 .custom-nav{
@@ -118,13 +119,14 @@ a:hover{
 }
 
 .experience-title{
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
   margin-bottom: -5px;
 }
 
 .experience-employer{
-  font-size: 22px;
+  font-size: 20px;
+  font-weight: bold;
   /*margin-bottom: -15px;*/
 }
 
